@@ -1,0 +1,74 @@
+/*
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f2ebe3;
+}
+.produto {
+    height: calc(100vh - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produto_card {
+    height: 450px;
+    width: 600px;
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.produto_img img {
+    height: 450px;
+    width: 300px;
+    border-radius: 15px 0px 0px 15px;
+}
+.card_perfume p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    margin: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.card_perfume h1 {
+    font-family: "Fraunces", serif;
+    font-size: 35px;
+    color: #1c232b;
+    margin: 30px;
+}
+.card_perfume h2 {
+    margin: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6c7289;
+}
+.card_preco {
+    height: 350px;
+    display: flex;
+}
+.card_valor1{
+    color: #3c8067;
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.card_valor2{
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: end;
+}
+.card_carrinho {
+    background-color: #1A4031;
+    color: #ffffff;
+}
+.attribution {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
