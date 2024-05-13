@@ -27,44 +27,84 @@ body {
     width: 300px;
     border-radius: 15px 0px 0px 15px;
 }
+.card_perfume {
+    padding: 30px 43px 30px 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
 .card_perfume p {
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    margin: 35px;
+    font-size: 12px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     letter-spacing: 5px;
 }
 .card_perfume h1 {
     font-family: "Fraunces", serif;
-    font-size: 35px;
+    font-size: 30px;
     color: #1c232b;
-    margin: 30px;
+    line-height: 1.0;
 }
 .card_perfume h2 {
-    margin: 30px;
+    margin-top: 30px;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
     font-weight: 500;
     color: #6c7289;
+    line-height: 25px;
 }
 .card_preco {
-    height: 350px;
+    margin: 25px 0px;
     display: flex;
 }
-.card_valor1{
+.card_valor1 {
+    display: flex;
+    align-items: center;
+}
+.card_valor2 {
+    display: flex;
+    align-items: center;
+}
+.card_valor1 span {
     color: #3c8067;
     font-family: "Fraunces", serif;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
+    margin-right: 20px;
+    letter-spacing: 0px;
 }
-.card_valor2{
+.card_valor2 span {
     font-family: "Montserrat", sans-serif;
-    display: flex;
-    justify-content: end;
+    font-size: 13px;
+    text-decoration: line-through;
+    margin: 0px;
+    letter-spacing: 0px;
 }
 .card_carrinho {
-    background-color: #1A4031;
     color: #ffffff;
+    display: flex;
+    justify-content: left;
+    width: 240px;
+}
+.card_carrinho a {
+    border-radius: 9px;
+    background-color: #1A4031;
+    padding: 5px 30px;
+    height: 45px;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_carrinho img {
+    margin-right: 10px;
+
 }
 .attribution {
     height: 30px;
